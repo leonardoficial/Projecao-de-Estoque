@@ -1,0 +1,22 @@
+<table class="inventory table table-striped"> 
+  <thead class="thead-dark"> 
+    <tr>
+      <th scope="col">item</th> 
+      <th scope="col">id</th> 
+      <th scope="col">grau</th> 
+      <th scope="col">quant</th>
+      <th>.</th>
+    </tr> 
+  </thead> 
+  <tbody> 
+    <tr *ngFor="let item of (list | filterBy: filter)"> 
+      <td>{{ item.nome }}</td>
+      <td>{{ item.id }}</td> 
+      <td>{{ item.grau }}</td>
+      <td>{{ item.quantidade }}</td>
+      <td>
+        <button class="btn btn-outline-primary">ver</button>
+      </td> 
+    </tr> 
+  </tbody> 
+</table>

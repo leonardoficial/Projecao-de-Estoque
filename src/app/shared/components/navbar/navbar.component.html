@@ -1,0 +1,61 @@
+
+    <div id="wrapper" [class]="toggled ? 'toggled' : ''">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                      Sistema Tático
+                    </a>
+                </li>
+                <li>
+                    <a class="active" routerLink="/inventory">Painel de controle</a>
+                </li>
+                <li>
+                    <a href="#">Monitoramento</a>
+                </li>
+                <li>
+                    <a href="#">Requisição</a>
+                </li> 
+                <li>
+                    <a href="#">Tomada de decisão</a>
+                </li>
+                <li class="sidebar-collapse">
+                    <a href="#" (click)="toggleCollapse(collapseServices)">
+                      Serviços <span class="float-right">+</span>
+                    </a>
+                    <ul class="collapse" #collapseServices>
+                      <li>Gerar relatórios</li>
+                      <li>Administrar requisições</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Configuração</a>
+                </li>
+                <li class="sidebar-collapse">
+                    <a href="#" (click)="toggleCollapse(collapseEvents)">
+                      Eventos <span class="float-right">+</span>
+                    </a>
+                    <ul class="collapse" #collapseEvents>
+                      <li>Atividades recentes</li>
+                    </ul>
+                </li>
+                <li>
+                    <a routerLink="/about">Sobre</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+        
+        <button *ngIf="toggled" id="sidenav-close" class="btn btn-outline-dark" 
+         (click)="toggleNavbar()">
+          × 
+        </button>
+        
+      </div>
+      
+      <div *ngIf="toggled" id="opac-bg"></div>
+     

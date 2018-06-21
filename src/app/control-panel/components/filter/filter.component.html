@@ -1,0 +1,46 @@
+<div class="filter container">
+  <div class="row text-center">
+    <div class="col-12 col-md-8">
+      <h6 class="text-left">Filtrar por</h6>
+      <div class="input-group">
+        <input [(ngModel)]="filterBy.texto" class="form-control" />
+        <div class="input-group-append">
+          <select [(ngModel)]="filterBy.tipo" class="form-control">
+            <option value="nome">nome</option> 
+            <option value="id">identificador</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <h6>Estoque de segurança</h6>
+      <select [(ngModel)]="filterBy.estoque" class="form-control">
+        <option value="todos">todos</option> 
+        <option value="maximo">maxímo</option> 
+        <option value="medio">médio</option>
+        <option value="reserva">reserva</option>
+      </select>
+    </div>
+    <div class="filter-level col-8">
+      <h6>Grau de importância</h6>
+      <button class="btn btn-dark">1</button> 
+      <button class="btn btn-dark">2</button> 
+      <button class="btn btn-dark">3</button>
+      <button class="btn btn-dark">4</button> 
+      <button class="btn btn-dark">5</button> 
+    </div>
+    <div class="col-4">
+      <h6>Ordernar</h6>
+      <select [(ngModel)]="filterBy.ordem" class="form-control">
+        <option value="entrada">entrada</option> 
+        <option value="alfabetica">alfabética</option>
+        <option value="identificador">identificador</option>
+        <option value="quantidade">quantidade</option> 
+      </select>
+    </div>
+    
+    <div class="col-4">
+      <button (click)="setFilter()" class="btn btn-danger">filtrar</button>
+    </div>
+  </div>
+</div>

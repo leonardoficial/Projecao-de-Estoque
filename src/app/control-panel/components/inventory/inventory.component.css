@@ -1,0 +1,14 @@
+.inventory.table {
+  text-align: center;
+}
+.inventory.table thead {
+  background: #202020;
+}
+.inventory.table th {
+  font-family: monospace;
+  text-transform: uppercase;
+}
+.inventory.table td {
+  line-height: 50px;
+  padding: 4px;
+}

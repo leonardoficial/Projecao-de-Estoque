@@ -1,0 +1,20 @@
+.command-section {
+  background: #202020;
+  border-bottom: 4px solid lightgray;
+  margin-top: -1px;
+  position: fixed;
+  z-index: 800;
+  width: 100%;
+}
+.command-section .command-buttons {
+  padding: 12px;
+}
+
+.chart-container {
+  margin-top: 80px;
+}
+.chart-container > div {  
+  height: 300px;
+  margin: 20px auto;
+  padding: 5px;
+}

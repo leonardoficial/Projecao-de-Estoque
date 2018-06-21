@@ -1,0 +1,22 @@
+.filter {
+  background: #eee;
+  border: 1px solid lightgray;
+  margin: 10px auto;
+}
+.filter .row > div {
+  padding: 15px;
+}
+
+.filter .filter-level .btn {
+  border-color: lightgray;
+  border-radius: 100%;
+  margin: auto 4px;
+}
+.filter h6 {
+  font-weight: bold;
+  text-transform: lowercase;
+}
+.filter .input-group select {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
