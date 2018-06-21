@@ -1,8 +1,8 @@
-# Sistema Tatico: ***Projeção de Estoque***
+# Sistema Tático: ***Projeção de Estoque***
 
 Sistema tático (SIG/SAD) feito especificamente para por em praticas conceitos aprendidos na matéria Fundamentos de Sistemas de Informação no curso superior de Tecnologia em Análise e Desenvolvimento de Sistemas na UEZO.
 
-## Série ***Sistemas de Informação***
+## Série ***SI - Sistemas de Informação***
 Este sistema faz parte de uma série de sistemas desenvolvidos, ou que pretendo desenvolver, para demonstrar na prática teorias e conceitos de sistemas de informação em seus 3 niveis organizacionais:
 
 - Nível Estratégico
