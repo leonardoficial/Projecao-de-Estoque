@@ -1,10 +1,19 @@
-# TestApp
+# Sistema Tatico: **Projeção de Estoque**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+Sistema tático (SIG/SAD) feito especificamente para por em praticas conceitos aptenfodo na matéria Fundamentos de Sistemas de Informação no curso superior de Tecnologia em Análise e Desenvolvimento dr Sistemas.
+
+## Série **Sistemas de Informação**
+Este sistema faz parte de uma série de sistemas desenvolvidos, ou que pretendo desenvolver, para demonstrar na prática teorias e conceitos de sistemas de informação em seus 3 niveis organizacionais:
+_ Nível Estratégico
+- **Nivel Tático**
+- Nivel Operacional
+
+
+# Informações da aplicação, feitas pelo Angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
