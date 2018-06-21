@@ -4,7 +4,8 @@ Sistema tático (SIG/SAD) feito especificamente para por em praticas conceitos a
 
 ## Série **Sistemas de Informação**
 Este sistema faz parte de uma série de sistemas desenvolvidos, ou que pretendo desenvolver, para demonstrar na prática teorias e conceitos de sistemas de informação em seus 3 niveis organizacionais:
-_ Nível Estratégico
+
+- Nível Estratégico
 - **Nivel Tático**
 - Nivel Operacional
 
